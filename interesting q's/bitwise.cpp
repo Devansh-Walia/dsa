@@ -33,9 +33,9 @@ int joshephusBIN( unsigned int n){
 
 int main()
 {
-    // int n = 3; // Number of disks
-    // towerOfHanoi(n, 'A', 'C', 'B'); // A, B and C are names of rods
-    // cout<<joshephusBIN(3)<<"\n";
+     int n = 3; // Number of disks
+     towerOfHanoi(n, 'A', 'C', 'B'); // A, B and C are names of rods
+     cout<<joshephusBIN(3)<<"\n";
     // cout<<joshephusBIN(4)<<"\n";
     // cout<<joshephusBIN(5)<<"\n";
     // cout<<joshephusBIN(6)<<"\n";
