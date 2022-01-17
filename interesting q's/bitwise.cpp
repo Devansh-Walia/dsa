@@ -29,7 +29,13 @@ int joshephusBIN( unsigned int n){
     cout<<bitset<8>(n)<<"rr";
     return (int)n;
 }
-
+void joshephusTri(int n){
+    int nearest_power_of_2 = 1;
+    while(nearest_power_of_2<=n)nearest_power_of_2*=2;
+    nearest_power_of_2/=2; //cuz you know the loop causes it to multiply by 2 more than required
+    int l =n-nearest_power_of_2;
+    cout<< 2*(l)+1;
+}
 
 int main()
 {
